@@ -8,7 +8,6 @@ function reqListener() {
   data = this.response;
   images = data["value"]; // array
   relatedsearches = data["relatedSearches"] //array
-  console.log(relatedsearches);
   processImages(images);
   processSuggestions(relatedsearches);
 }
